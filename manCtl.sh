@@ -1,7 +1,7 @@
 #!/bin/bash
 while [ "1" = "1" ]
 do
-    read -p "enter direction:" direction
+    read -n 1 -p "enter direction: " direction
     if [ "$direction" = "q" ];then
       exit 0
     elif [ "$direction" = "1" ];then
