@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo chmod 777 /dev/tty0
 while [ "1" = "1" ]
 do
     read -n 1 -p "enter direction: " direction
